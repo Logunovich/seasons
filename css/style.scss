@@ -1,0 +1,72 @@
+@import "nullstyle.scss";
+
+.container {
+    background: #fee9ca;
+}
+.slides {
+    width: 513px;
+    margin: 0 auto;
+
+        &__field{
+            overflow: hidden;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+        
+        &__window{
+            position: relative;
+            z-index: 2;
+        }
+
+		&__row {
+            display: flex;
+            position: absolute;
+            top: 49px;
+            left: 75px;
+            z-index: 1;
+            transition: 1s all;
+            // transform: translateX(-370px);
+		}
+
+		&__img {
+          
+		}
+
+		&__buttons {
+            margin: 30px auto;
+            padding: 0 0 100px 0;
+            display: flex;
+            justify-content: space-between;
+		}
+
+		&__link {
+            font-size: 30px;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+		}
+}
+.autumn {
+    color: orange;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.winter {
+    color: blue;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.spring {
+    color: purple;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.summer {
+    color: green;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
